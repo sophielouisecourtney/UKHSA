@@ -18,7 +18,7 @@ def log_error(id: int, error_message: str):
 
 ## Calculate BMI using Height and Weight where possible
 def calculate_bmi(weight: Optional[float], height: Optional[float]) -> Optional[int]:
-    if weight and height and weight > 0 and height > 0:
-        bmi = weight / ((height / 100) ** 2)
+    if weight is not None and height is not None and weight > 0 and height > 0:
+        bmi = weight / ((height / 100) ** 2) # BMI = weight (kg)/height (m^2)
         return round(bmi)
     return None

@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from functions.functions import log_error
+from functions import log_error
 from typing import Optional
 from datetime import date
 
