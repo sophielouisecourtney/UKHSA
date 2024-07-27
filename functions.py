@@ -3,6 +3,7 @@ import csv
 from datetime import datetime
 from typing import Optional
 
+# Function to create error logs
 ERROR_LOG_PATH = 'output/error_log.csv'
 
 def log_error(id: int, error_message: str):
@@ -20,7 +21,7 @@ def log_error(id: int, error_message: str):
         writer.writerow([now.date(), now.time().strftime('%H:%M:%S'), id, error_message])
 
 
-## Calculate BMI using Height and Weight where possible
+# Function to calculate BMI using Height and Weight where possible
 def calculate_bmi(weight: Optional[float], height: Optional[float]) -> Optional[int]:
     if weight is not None and height is not None and weight > 0 and height > 0:
         bmi = weight / ((height / 100) ** 2) # BMI = weight (kg)/height (m^2)

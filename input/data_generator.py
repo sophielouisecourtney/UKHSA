@@ -13,12 +13,12 @@ AUTHOR: Sophie-Louise Courtney
 LAST UPDATED: 27/07/2024
 LANGUAGE: Python
 """
-## 0. Inputs ##
+# Imports
 import pandas as pd
 import numpy as np
 
-## 1. Create Random-ness ##
-# Set random seed for reproducibility while testing
+# Create Random-ness
+# Set random seed for reproducibility while testing (if you keep the number the same between tests you will always be working with the same dataset)
 np.random.seed(12)
 
 # Helper function to generate random dates
@@ -45,7 +45,7 @@ def create_mismatch(df1, df2, match_ratio=0.95):
     
     return df1, df2
 
-## 2. Generate Data
+# Generate Data
 # Generate initial data
 data = {
     'id': np.random.randint(100000, 999999, size=100).astype(str),
@@ -83,7 +83,7 @@ df_medical = pd.DataFrame({
 # Convert date_of_birth column to date format
 df_persons['date_of_birth'] = df_persons['date_of_birth'].dt.date
 
-## 3. Simulate data errors ##
+# Simulate data errors
 # Introduce missingness of 5%
 def introduce_missingness(df, col, missing_ratio=0.05):
     if col in df.columns:
@@ -105,7 +105,7 @@ df_persons, df_medical = create_mismatch(df_persons, df_medical)
 # Introduce some messiness in the 'Notes' column
 df_medical.loc[df_medical.sample(frac=0.05).index, 'Notes'] = 'irregular entry'
 
-## 4. Produce data dictionaries to show disclosive columns ##
+# Produce data dictionaries to show disclosive columns
 # Create Data Dictionary for 'persons' table
 data_dictionary_persons = {
     'Variable': ['id', 'forename', 'surname', 'date_of_birth', 'sex'],
@@ -137,14 +137,14 @@ data_dictionary_medical = {
 
 df_data_dictionary_medical = pd.DataFrame(data_dictionary_medical)
 
-## 5. Save DataFrames and Data Dictionaries to CSV ##
+# Save DataFrames and Data Dictionaries to CSV
 # Set path locations
 csv_persons_path = 'input/persons.csv'
 csv_medical_path = 'input/medical.csv'
 data_dictionary_persons_path = 'input/persons_data_dicitonary.csv'
 data_dictionary_medical_path = 'input/medical_data_dictionary.csv'
 
-#Save CSVs
+# Save CSVs
 df_persons.to_csv(csv_persons_path, index=False)
 df_medical.to_csv(csv_medical_path, index=False)
 df_data_dictionary_persons.to_csv(data_dictionary_persons_path, index=False)

@@ -1,3 +1,15 @@
+"""
+WHAT IT DOES:
+* This is just an example setup of how to create a dataset that is configurated with AWS
+
+OUTPUTS:
+* Nothing as-is. Just an example!
+
+AUTHOR: Sophie-Louise Courtney
+LAST UPDATED: 27/07/2024
+LANGUAGE: Python
+"""
+
 import pandas as pd
 from sqlalchemy import create_engine
 import boto3

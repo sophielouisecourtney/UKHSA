@@ -13,7 +13,7 @@ AUTHOR: Sophie-Louise Courtney
 LAST UPDATED: 27/07/2024
 LANGUAGE: Python
 """
-
+# Imports 
 import pandas as pd
 from datetime import datetime
 from functions import calculate_bmi, log_error
