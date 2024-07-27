@@ -23,11 +23,29 @@ from classes import PatientRecord
 MEDICAL_CSV_PATH = 'input/medical.csv'
 PERSONS_CSV_PATH = 'input/persons.csv'
 OUTPUT_CSV_PATH = 'output/merged_data.csv'
+UNMATCHED_CSV_PATH = 'output/unmatched_ids.csv'
 
 def main():
     # Load the CSV files
     medical_df = pd.read_csv(MEDICAL_CSV_PATH)
     persons_df = pd.read_csv(PERSONS_CSV_PATH)
+    
+    # Get unique IDs from both files
+    medical_ids = set(medical_df['id'].unique())
+    persons_ids = set(persons_df['id'].unique())
+    
+    # Find unmatched IDs
+    unmatched_in_medical = list(medical_ids - persons_ids)
+    unmatched_in_persons = list(persons_ids - medical_ids)
+    total_unmatched = unmatched_in_persons + unmatched_in_medical
+  
+    # Combine unmatched IDs into a DataFrame
+    unmatched_df = pd.DataFrame({
+        'ID': total_unmatched,
+    })
+    
+    # Save unmatched IDs to CSV
+    unmatched_df.to_csv(UNMATCHED_CSV_PATH, index=False)
     
     # Merge the DataFrames on 'id'
     merged_df = pd.merge(medical_df, persons_df, on='id', how='left')
@@ -44,16 +62,16 @@ def main():
             # Create PatientRecord
             record = PatientRecord(
                 ID=int(row['id']),
-                FORENAME=row['forename'] if not pd.isna(row['forename']) else '',
-                SURNAME=row['surname'] if not pd.isna(row['surname']) else '',
+                FORENAME=row['forename'],
+                SURNAME=row['surname'],
                 DOB=datetime.strptime(row['date_of_birth'], '%Y-%m-%d').date() if not pd.isna(row['date_of_birth']) else None,
-                SEX=row['sex'] if not pd.isna(row['sex']) else '',
-                HEIGHT_CM=int(row['height']) if not pd.isna(row['height']) else None,
-                WEIGHT_KG=int(row['weight']) if not pd.isna(row['weight']) else None,
+                SEX=row['sex'],
+                HEIGHT_CM=row['height'],
+                WEIGHT_KG=row['weight'],
                 BMI=bmi,
-                BP_LVL=row['blood_pressure'] if not pd.isna(row['blood_pressure']) else '',
-                CHOL_LVL=int(row['cholestrol_lvl']) if not pd.isna(row['cholestrol_lvl']) else None,
-                NOTES=row['Notes'] if not pd.isna(row['Notes']) else None
+                BP_LVL=row['blood_pressure'],
+                CHOL_LVL=row['cholestrol_lvl'],
+                NOTES=row['Notes']
             )
             records.append(record)
         

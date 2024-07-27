@@ -19,7 +19,7 @@ import numpy as np
 
 ## 1. Create Random-ness ##
 # Set random seed for reproducibility while testing
-np.random.seed(42)
+np.random.seed(12)
 
 # Helper function to generate random dates
 def random_dates(start, end, n):

@@ -3,7 +3,7 @@ import csv
 from datetime import datetime
 from typing import Optional
 
-ERROR_LOG_PATH = 'logging/error_log.csv'
+ERROR_LOG_PATH = 'output/error_log.csv'
 
 def log_error(id: int, error_message: str):
     # Ensure the logging directory exists

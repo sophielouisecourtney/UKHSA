@@ -1,0 +1,131 @@
+date,time,ID,error_message
+2024-07-27,19:02:46,833004,BP_LVL format is not valid
+2024-07-27,19:02:46,203099,BP_LVL format is not valid
+2024-07-27,19:02:46,306083,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:02:46,833004,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:02:46,296886,BP_LVL format is not valid
+2024-07-27,19:02:46,222929,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:02:46,443988,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:02:46,214565,BP_LVL format is not valid
+2024-07-27,19:02:46,120953,BP_LVL format is not valid
+2024-07-27,19:02:46,109846,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:02:46,236266,BP_LVL format is not valid
+2024-07-27,19:02:46,672685,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:02:46,464626,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:02:46,943865,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:02:46,895939,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:02:46,366174,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:02:46,205889,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:02:46,275223,BP_LVL format is not valid
+2024-07-27,19:02:46,211039,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:02:46,998518,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:02:46,770676,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:02:46,756518,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:02:46,348443,BP_LVL format is not valid
+2024-07-27,19:02:46,367949,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:02:46,457024,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:02:46,353038,BP_LVL format is not valid
+2024-07-27,19:02:46,383163,BP_LVL format is not valid
+2024-07-27,19:02:46,912731,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:02:46,264825,BP_LVL format is not valid
+2024-07-27,19:02:46,126584,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:02:46,254649,SEX must be 'M' or 'F'
+2024-07-27,19:02:46,859748,BP_LVL format is not valid
+2024-07-27,19:02:46,167137,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:02:46,422860,BP_LVL format is not valid
+2024-07-27,19:02:46,232005,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:02:46,582507,BP_LVL format is not valid
+2024-07-27,19:02:46,402325,BP_LVL format is not valid
+2024-07-27,19:02:46,607716,BP_LVL format is not valid
+2024-07-27,19:02:46,708459,BP_LVL format is not valid
+2024-07-27,19:02:46,193493,SEX must be 'M' or 'F'
+2024-07-27,19:02:46,349451,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:02:46,727772,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:02:46,686410,BP_LVL format is not valid
+2024-07-27,19:02:46,545638,BP_LVL format is not valid
+2024-07-27,19:02:46,417596,SEX must be 'M' or 'F'
+2024-07-27,19:02:46,190570,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:02:46,935642,SEX must be 'M' or 'F'
+2024-07-27,19:02:46,251099,BP_LVL format is not valid
+2024-07-27,19:02:46,361204,BP_LVL format is not valid
+2024-07-27,19:02:46,161795,BP_LVL format is not valid
+2024-07-27,19:02:46,982870,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:02:46,907403,BP_LVL format is not valid
+2024-07-27,19:02:46,600973,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:02:46,856193,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:02:46,934068,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:02:46,151613,BP_LVL format is not valid
+2024-07-27,19:02:46,234955,BP_LVL format is not valid
+2024-07-27,19:02:46,505113,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:02:46,462230,BP_LVL format is not valid
+2024-07-27,19:02:46,741652,BP_LVL format is not valid
+2024-07-27,19:02:46,479462,BP_LVL format is not valid
+2024-07-27,19:02:46,326395,BP_LVL format is not valid
+2024-07-27,19:02:46,379014,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:02:46,628484,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:02:46,119253,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:04:18,833004,BP_LVL format is not valid
+2024-07-27,19:04:18,203099,BP_LVL format is not valid
+2024-07-27,19:04:18,306083,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:04:18,833004,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:04:18,296886,BP_LVL format is not valid
+2024-07-27,19:04:18,222929,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:04:18,443988,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:04:18,214565,BP_LVL format is not valid
+2024-07-27,19:04:18,120953,BP_LVL format is not valid
+2024-07-27,19:04:18,109846,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:04:18,236266,BP_LVL format is not valid
+2024-07-27,19:04:18,672685,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:04:18,464626,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:04:18,943865,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:04:18,895939,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:04:18,366174,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:04:18,205889,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:04:18,275223,BP_LVL format is not valid
+2024-07-27,19:04:18,211039,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:04:18,998518,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:04:18,770676,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:04:18,756518,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:04:18,348443,BP_LVL format is not valid
+2024-07-27,19:04:18,367949,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:04:18,457024,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:04:18,353038,BP_LVL format is not valid
+2024-07-27,19:04:18,383163,BP_LVL format is not valid
+2024-07-27,19:04:18,912731,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:04:18,264825,BP_LVL format is not valid
+2024-07-27,19:04:18,126584,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:04:18,254649,SEX must be 'M' or 'F'
+2024-07-27,19:04:18,859748,BP_LVL format is not valid
+2024-07-27,19:04:18,167137,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:04:18,422860,BP_LVL format is not valid
+2024-07-27,19:04:18,232005,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:04:18,582507,BP_LVL format is not valid
+2024-07-27,19:04:18,402325,BP_LVL format is not valid
+2024-07-27,19:04:18,607716,BP_LVL format is not valid
+2024-07-27,19:04:18,708459,BP_LVL format is not valid
+2024-07-27,19:04:18,193493,SEX must be 'M' or 'F'
+2024-07-27,19:04:18,349451,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:04:18,727772,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:04:18,686410,BP_LVL format is not valid
+2024-07-27,19:04:18,545638,BP_LVL format is not valid
+2024-07-27,19:04:18,417596,SEX must be 'M' or 'F'
+2024-07-27,19:04:18,190570,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:04:18,935642,SEX must be 'M' or 'F'
+2024-07-27,19:04:18,251099,BP_LVL format is not valid
+2024-07-27,19:04:18,361204,BP_LVL format is not valid
+2024-07-27,19:04:18,161795,BP_LVL format is not valid
+2024-07-27,19:04:18,982870,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:04:18,907403,BP_LVL format is not valid
+2024-07-27,19:04:18,600973,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:04:18,856193,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:04:18,934068,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:04:18,151613,BP_LVL format is not valid
+2024-07-27,19:04:18,234955,BP_LVL format is not valid
+2024-07-27,19:04:18,505113,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:04:18,462230,BP_LVL format is not valid
+2024-07-27,19:04:18,741652,BP_LVL format is not valid
+2024-07-27,19:04:18,479462,BP_LVL format is not valid
+2024-07-27,19:04:18,326395,BP_LVL format is not valid
+2024-07-27,19:04:18,379014,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:04:18,628484,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
+2024-07-27,19:04:18,119253,"NOTES must be 'Needs follow-up', 'Regular check-up', 'Medication prescribed', or None"
