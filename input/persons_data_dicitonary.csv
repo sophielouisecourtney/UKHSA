@@ -1,0 +1,6 @@
+Variable,Description,Disclosive
+id,Unique identifier for each entry,True
+forename,First name of the individual,True
+surname,Last name of the individual,True
+date_of_birth,Date of birth of the individual,True
+sex,Birth-assigned sex of the individual,True

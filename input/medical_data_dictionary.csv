@@ -1,0 +1,7 @@
+Variable,Description,Disclosive
+id,Unique identifier for each entry,True
+age,age of the individual,False
+height,height of the individual in centimeters,False
+weight,weight of the individual in kilograms,False
+blood_pressure,Blood pressure readings of the individual,False
+Notes,Additional notes with some messiness,True
