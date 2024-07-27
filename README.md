@@ -49,4 +49,4 @@ Data manipulation to calculate a patient's BMI based on their height and weight.
 The main data pipeline, which takes matches the 2 input csvs, matches them, and creates the output files, executing the classes and functions I have written in the process.
 
 ## tests.py
-A series of testing functions for the sake of QA.
+**test_unique_ids_handling** Tests that all IDs within the data only appear once within the output files - as there should be no overlap between ID with match, do not match, and error
