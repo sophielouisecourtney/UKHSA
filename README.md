@@ -32,7 +32,7 @@ A list of ID numbers that were unable to be matched due to a missing matching ID
 ### schema_plan.png
 A planned schema flowchart
 
-### JIRA_tasks.png
+### JIRA_tasks.jpg
 A plan of tasks which I made on paper but would usually make in JIRA - for your interest!
 
 ## classes.py
