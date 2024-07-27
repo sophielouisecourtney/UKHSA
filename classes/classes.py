@@ -1,27 +1,7 @@
 from dataclasses import dataclass
+from functions.functions import log_error
 from typing import Optional
-from datetime import date, datetime
-import csv
-import os
-
-## Error Logging ##
-# Path to the error log CSV file
-ERROR_LOG_PATH = 'logging/error_log.csv'
-
-# Function to log errors to a CSV file
-def log_error(id: int, error_message: str):
-    # Ensure the CSV file exists and create it if it does not
-    file_exists = os.path.isfile(ERROR_LOG_PATH)
-
-    # Open the CSV file in append mode
-    with open(ERROR_LOG_PATH, mode='a', newline='') as file:
-        writer = csv.writer(file)
-        # Write the header if the file is new
-        if not file_exists:
-            writer.writerow(['date', 'time', 'ID', 'error_message'])
-        # Write the error entry
-        now = datetime.now()
-        writer.writerow([now.date(), now.time().strftime('%H:%M:%S'), id, error_message])
+from datetime import date
 
 ## Class based on output schema and/or stakeholder input ##
 @dataclass
