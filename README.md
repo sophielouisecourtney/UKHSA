@@ -51,8 +51,8 @@ The main data pipeline, which takes matches the 2 input csvs, matches them, and 
 ## tests.py
 **test_unique_ids_handling** Tests that all IDs within the data only appear once within the output files - as there should be no overlap between ID with match, do not match, and error
 
-## extras:
+## extras
 ### hashing.py
 When it comes to security, the hope would be that this data was processed and stored within a limited access area with password protection and encryption, but to show a way to allow more users access to sensitive data I have also included a data hashing function with an example which can be run via extras
-### clooud_config.py
+### cloud_config.py
 I do not currently have access to a full premium AWS account but I do have experience with integrating pipelines with cloud services, and running code via Airflow scheduling. I have included example snippets of config code within this file, but decided not to integrate it with the main pipeline to keep the original local version running smoothly.
